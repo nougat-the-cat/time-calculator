@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(246, 255, 168);
+}
+
+h1 {
+    color: rgb(206, 24, 24);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.result {
+    /* bold */
+    font-weight: bold;
+}
+
+.input-fields {
+    /* display each of its elements serially*/
+    display: flex;
+    /* align the elements to the center */
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+input {
+    text-align: right;
+}
+
+::placeholder {
+    text-align: left;
+}
+
+.input-field {
+    margin: 2px;
+    text-align: right;
+}
+
+label {
+    display: flex;
+    font-weight: bolder;
+}
+
+button {
+    margin: 2px;
+}
